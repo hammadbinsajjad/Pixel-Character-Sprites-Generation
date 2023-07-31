@@ -13,6 +13,8 @@ Variational Auto Encoders work on the basis of autoencoders but have some random
 ### Convolutional Variational Auto Encoders (CVAE)
 Convolutional Variational Auto Encoders are designed to work with images. Using Convolution, the variational auto-encoder generates new random images using the ones it was trained on.
 
+![Neural Network CVAE Architecture](neural_network.png)
+
 
 ## Dataset
 
@@ -20,11 +22,11 @@ We used the following dataset of pixelated character sprites to train our neural
 
 Kaggle Link: [TinyHero - Retro pixel characters dataset](https://www.kaggle.com/datasets/calmness/retro-pixel-characters-generator)
 
-## Results
+## Result
 
-![CVAE Results]()
+![CVAE Results](ml_project_result.png)
 
 ## Credits
 
-- [CVAE Notebook from TensorFlow](https://www.tensorflow.org/tutorials/generative/cvae)
+- [CVAE Notebook](https://www.tensorflow.org/tutorials/generative/cvae) from [Tensorflow](https://www.tensorflow.org/)
 - Special thanks to my teammate [Huraira Majeed](https://github.com/Abu-Huraira21)
